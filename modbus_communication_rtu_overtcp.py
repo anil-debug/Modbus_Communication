@@ -79,7 +79,7 @@ class ModbusRTUOVERTCPClient:
 
 if __name__ == "__main__":
     # Example usage
-    client = ModbusRTUOVERTCPClient('10.1.2.190', port=502)  # Replace with your Modbus TCP server IP address and port
+    client = ModbusRTUOVERTCPClient('0.0.0.0', port=502)  # Replace with your Modbus TCP server IP address and port
     client.connect()
 
     # Read 4 registers starting from address 104
