@@ -46,6 +46,18 @@ This file provides a Python class `ModbusRTUOVERTCPClient` for communicating wit
    pip install -r requirements.txt
 2. Modify the server_ip variable in the usage example to match the IP address of your Modbus TCP server.
 3. Run the script to read and write data to the Modbus RTU device over TCP/IP.
+
+### 4. modbus_rtu_minimal.py
+
+This file provides a Python class `ModbusConnection` for communicating with Modbus devices over RTU with minimalmodbus.
+
+#### Usage:
+
+1. Ensure you have the required Python packages installed using the provided `requirements.txt` file.
+
+   ```bash
+   pip install -r requirements.txt
+2. Modify the necessary parameters like port,slave_id and baud_rate and run.
 ---
 
 Feel free to update the scripts and usage examples as needed for your specific Modbus devices and configurations.
